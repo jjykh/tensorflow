@@ -155,6 +155,7 @@ WIN_COPTS = [
     "/DEIGEN_AVOID_STL_ARRAY",
     "/Iexternal/gemmlowp",
     "/wd4018", # -Wno-sign-compare
+    "/wd4348", "/wd4503", "/wd4506", "/wd4819", # code page (936)
     "/U_HAS_EXCEPTIONS", "/D_HAS_EXCEPTIONS=1", "/EHsc", # -fno-exceptions
     "/DNOGDI",
 ]
