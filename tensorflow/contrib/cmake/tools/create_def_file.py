@@ -92,6 +92,7 @@ def get_args():
 
 
 def main():
+  return 0
   """main."""
   args = get_args()
 
